@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: linear-gradient(135deg,rgb(3,3,10),rgb(18,18,25));
+}
+
+body::-webkit-scrollbar{
+    width: .35vw;
+    border-radius: 3vw;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: rgb(125, 125, 125);
+}
